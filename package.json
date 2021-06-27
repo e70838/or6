@@ -1,0 +1,25 @@
+{
+  "name": "or6",
+  "version": "1.0.0",
+  "description": "minimal test for frontend development using typescript",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=dev DEBUG=* node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/e70838/or6.git"
+  },
+  "author": "e70838@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e70838/or6/issues"
+  },
+  "homepage": "https://github.com/e70838/or6#readme",
+  "devDependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "typescript": "^4.3.4"
+  }
+}
