@@ -1,9 +1,8 @@
 {
   "name": "or6",
   "version": "1.0.0",
-  "description": "minimal test for frontend development using typescript",
+  "description": "minimal test for frontend development",
   "scripts": {
-    "build": "tsc",
     "start": "NODE_ENV=dev DEBUG=* node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +18,6 @@
   "homepage": "https://github.com/e70838/or6#readme",
   "devDependencies": {
     "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "typescript": "^4.3.4"
+    "express": "~4.16.1"
   }
 }
