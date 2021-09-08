@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>    
-    <body>
-        <h1>Fun with TypeScript</h1>
-        <p id="index">Let's rock</p>
-      
-        <script src="js/main.js"> </script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Multiplication de nombres</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- ceci est un commentaire -->
+  </head>
+  <body>
+    <form action="" method="post" onsubmit="console.log('jk');return validateForm()">
+      <h1 style="text-align: center;">multiplication</h1>
+      <fieldset>
+        <label for="num1">Premier nombre:</label>
+        <input type="text" id="num1" name="nombre1" />
+
+        <label for="num2">Second nombre:</label>
+        <input type="text" id="num2" name="nombre2" />
+      </fieldset>
+      <button type="submit">Calculer</button>
+    </form>
+    <div id="app"></div>
+    <script src="js/main.js"> </script>
+  </body>
 </html>
