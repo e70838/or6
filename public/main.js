@@ -22,7 +22,6 @@ function validateForm() {
     s += '</tr>';
   }
 
-
   document.getElementById("app").innerHTML = `<table>${s}</table><p>produit = ${n1 * n2}</p>`;
   return false;
 }
