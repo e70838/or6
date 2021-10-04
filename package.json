@@ -16,7 +16,7 @@
     "url": "https://github.com/e70838/or6/issues"
   },
   "homepage": "https://github.com/e70838/or6#readme",
-  "devDependencies": {
+  "dependencies": {
     "debug": "~2.6.9",
     "express": "~4.16.1"
   }
